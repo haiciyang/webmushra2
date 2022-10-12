@@ -1,4 +1,4 @@
-testname: webMUSHRA Example
+testname: webMUSHRA
 testId: default_example
 bufferSize: 2048
 stopOnErrors: true
@@ -10,46 +10,144 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!       
-    - type: mushra
-      id: trial1
-      name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/mono_ref.wav
-      createAnchor35: true
-      createAnchor70: true
-      stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
+      content: <p>Thank you for participating in this listening test. This test will take about 20 minutes. </p> <br/><p> <b>IMPORTANT</b> At the end of the test, put your name and submit the results. The system won't save the results by itself. <b>Please make sure to copy the results showed on your page, and send to my email - hy17@iu.edu </b>  </p>
     - 
-          - random
-          - type: mushra
-            id: trial_random_1
-            name: MUSHRA - Random 2
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
-          - type: mushra
-            id: trial_random_2
-            name: MUSHRA - Random 1
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+      - random
+      - type: mushra
+        id: trial_random_1
+        name: MUSHRA
+        content: 
+        enableLooping: true
+        reference: configs/resources/genc_samples/s1_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s1_syn20_bl.wav
+            C2: configs/resources/genc_samples/s1_syn23.wav
+            C3: configs/resources/genc_samples/s1_syn50_bl.wav
+            C4: configs/resources/genc_samples/s1_qtz.wav           
+      - type: mushra
+        id: trial_random_3
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s3_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s3_syn20_bl.wav
+            C2: configs/resources/genc_samples/s3_syn23.wav
+            C3: configs/resources/genc_samples/s3_syn50_bl.wav
+            C4: configs/resources/genc_samples/s3_qtz.wav
+      - type: mushra
+        id: trial_random_4
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s4_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s4_syn20_bl.wav
+            C2: configs/resources/genc_samples/s4_syn23.wav
+            C3: configs/resources/genc_samples/s4_syn50_bl.wav
+            C4: configs/resources/genc_samples/s4_qtz.wav
+
+      # - type: mushra
+      #   id: trial_random_5
+      #   name: MUSHRA
+      #   content:
+      #   enableLooping: true
+      #   reference: configs/resources/genc_samples/s5_truth.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/genc_samples/s5_syn20_bl.wav
+      #       C2: configs/resources/genc_samples/s5_syn23.wav
+      #       C3: configs/resources/genc_samples/s5_syn50_bl.wav
+      #       C4: configs/resources/genc_samples/s5_qtz.wav
+      - type: mushra
+        id: trial_random_6
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s6_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s6_syn20_bl.wav
+            C2: configs/resources/genc_samples/s6_syn23.wav
+            C3: configs/resources/genc_samples/s6_syn50_bl.wav
+            C4: configs/resources/genc_samples/s6_qtz.wav
+      - type: mushra
+        id: trial_random_7
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s7_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s7_syn20_bl.wav
+            C2: configs/resources/genc_samples/s7_syn23.wav
+            C3: configs/resources/genc_samples/s7_syn50_bl.wav
+            C4: configs/resources/genc_samples/s7_qtz.wav
+      - type: mushra
+        id: trial_random_9
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s9_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s9_syn20_bl.wav
+            C2: configs/resources/genc_samples/s9_syn23.wav
+            C3: configs/resources/genc_samples/s9_syn50_bl.wav
+            C4: configs/resources/genc_samples/s9_qtz.wav
+      - type: mushra
+        id: trial_random_16
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s16_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s16_syn20_bl.wav
+            C2: configs/resources/genc_samples/s16_syn23.wav
+            C3: configs/resources/genc_samples/s16_syn50_bl.wav
+            C4: configs/resources/genc_samples/s16_qtz.wav
+      - type: mushra
+        id: trial_random_lyra1
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/lyra1_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/lyra1_syn20_bl.wav
+            C2: configs/resources/genc_samples/lyra1_syn23.wav
+            C3: configs/resources/genc_samples/lyra1_syn50_bl.wav
+            C4: configs/resources/genc_samples/lyra1_qtz.wav
+            C5: configs/resources/genc_samples/lyra1.wav
+      - type: mushra
+        id: trial_random_lyra2
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/lyra2_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/lyra2_syn20_bl.wav
+            C2: configs/resources/genc_samples/lyra2_syn23.wav
+            C3: configs/resources/genc_samples/lyra2_syn50_bl.wav
+            C4: configs/resources/genc_samples/lyra2_qtz.wav
+            C5: configs/resources/genc_samples/lyra2.wav
+
+
     - type: finish
       name: Thank you
       content: Thank you for attending!
@@ -57,21 +155,6 @@ pages:
       writeResults: true
       questionnaire:
           - type: text
-            label: eMail
-            name: email
-          - type: number
-            label: Age
-            name: age
-            min: 0
-            max: 100
-            default: 30
-          - type: likert
-            name: gender
-            label: Gender
-            response:
-             - value: female
-               label: Female
-             - value: male
-               label: Male
-             - value: other
-               label: Other
+            label: Your name
+            name: name
+
