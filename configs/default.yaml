@@ -10,7 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: <p>Thank you for participating in this listening test. This test will take about 20 minutes. </p> <br/><p> <b>IMPORTANT</b> At the end of the test, put your name and submit the results. The system won't save the results by itself. <b>Please make sure to copy the results showed on your page, and send to my email - hy17@iu.edu </b>  </p>
+      content: <p>Thank you for participating in this listening test. This test will take about 20 minutes. </p> 
     - 
       - random
       - type: mushra
