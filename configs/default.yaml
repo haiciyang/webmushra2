@@ -10,7 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: <p>Thank you for participating in this listening test. This test will take about 20 minutes. </p> 
+      content: <p>Thank you for participating in this listening test. This test will take about 20 minutes. </p> <br/> <p>At the end of the test, please put your name and click the submit results button to make sure your results are save to the system. </p> 
     - 
       - random
       - type: mushra
