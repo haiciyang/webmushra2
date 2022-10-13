@@ -14,7 +14,7 @@ pages:
     - 
       - random
       - type: mushra
-        id: trial_random_1
+        id: 0
         name: MUSHRA
         content: 
         enableLooping: true
@@ -28,7 +28,7 @@ pages:
             C4: configs/resources/genc_samples/s1/s1_qtz.wav   
             C5: configs/resources/genc_samples/s1/s1_lyra.wav          
       - type: mushra
-        id: trial_random_3
+        id: 1
         name: MUSHRA
         content:
         enableLooping: true
@@ -42,7 +42,7 @@ pages:
             C4: configs/resources/genc_samples/s3/s3_qtz.wav
             C5: configs/resources/genc_samples/s3/s3_lyra.wav
       - type: mushra
-        id: trial_random_4
+        id: 2
         name: MUSHRA
         content:
         enableLooping: true
@@ -57,7 +57,7 @@ pages:
             C5: configs/resources/genc_samples/s4/s4_lyra.wav
 
       - type: mushra
-        id: trial_random_6
+        id: 3
         name: MUSHRA
         content:
         enableLooping: true
@@ -71,7 +71,7 @@ pages:
             C4: configs/resources/genc_samples/s6/s6_qtz.wav
             C5: configs/resources/genc_samples/s6/s6_lyra.wav
       - type: mushra
-        id: trial_random_7
+        id: 4
         name: MUSHRA
         content:
         enableLooping: true
@@ -85,7 +85,7 @@ pages:
             C4: configs/resources/genc_samples/s7/s7_qtz.wav
             C5: configs/resources/genc_samples/s7/s7_lyra.wav
       - type: mushra
-        id: trial_random_9
+        id: 5
         name: MUSHRA
         content:
         enableLooping: true
@@ -99,7 +99,7 @@ pages:
             C4: configs/resources/genc_samples/s9/s9_qtz.wav
             C5: configs/resources/genc_samples/s9/s9_lyra.wav
       - type: mushra
-        id: trial_random_16
+        id: 6
         name: MUSHRA
         content:
         enableLooping: true
@@ -114,7 +114,7 @@ pages:
             C5: configs/resources/genc_samples/s16/s16_lyra.wav
 
       - type: mushra
-        id: trial_random_18
+        id: 7
         name: MUSHRA
         content:
         enableLooping: true
@@ -128,7 +128,7 @@ pages:
             C4: configs/resources/genc_samples/s18/s18_qtz.wav
             C5: configs/resources/genc_samples/s18/s18_lyra.wav
       - type: mushra
-        id: trial_random_19
+        id: 8
         name: MUSHRA
         content:
         enableLooping: true
@@ -142,7 +142,7 @@ pages:
             C4: configs/resources/genc_samples/s19/s19_qtz.wav
             C5: configs/resources/genc_samples/s19/s19_lyra.wav
       - type: mushra
-        id: trial_random_22
+        id: 9
         name: MUSHRA
         content:
         enableLooping: true
@@ -155,7 +155,6 @@ pages:
             C3: configs/resources/genc_samples/s22/s22_full.wav
             C4: configs/resources/genc_samples/s22/s22_qtz.wav
             C5: configs/resources/genc_samples/s22/s22_lyra.wav
-
 
     - type: finish
       name: Thank you
