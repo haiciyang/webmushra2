@@ -18,134 +18,143 @@ pages:
         name: MUSHRA
         content: 
         enableLooping: true
-        reference: configs/resources/genc_samples/s1_truth.wav
+        reference: configs/resources/genc_samples/s1/s1_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s1_syn20_bl.wav
-            C2: configs/resources/genc_samples/s1_syn23.wav
-            C3: configs/resources/genc_samples/s1_syn50_bl.wav
-            C4: configs/resources/genc_samples/s1_qtz.wav           
+            C1: configs/resources/genc_samples/s1/s1_syn20_bl.wav
+            C2: configs/resources/genc_samples/s1/s1_syn23.wav
+            C3: configs/resources/genc_samples/s1/s1_full.wav
+            C4: configs/resources/genc_samples/s1/s1_qtz.wav   
+            C5: configs/resources/genc_samples/s1/s1_lyra.wav          
       - type: mushra
         id: trial_random_3
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/s3_truth.wav
+        reference: configs/resources/genc_samples/s3/s3_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s3_syn20_bl.wav
-            C2: configs/resources/genc_samples/s3_syn23.wav
-            C3: configs/resources/genc_samples/s3_syn50_bl.wav
-            C4: configs/resources/genc_samples/s3_qtz.wav
+            C1: configs/resources/genc_samples/s3/s3_syn20_bl.wav
+            C2: configs/resources/genc_samples/s3/s3_syn23.wav
+            C3: configs/resources/genc_samples/s3/s3_full.wav
+            C4: configs/resources/genc_samples/s3/s3_qtz.wav
+            C5: configs/resources/genc_samples/s3/s3_lyra.wav
       - type: mushra
         id: trial_random_4
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/s4_truth.wav
+        reference: configs/resources/genc_samples/s4/s4_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s4_syn20_bl.wav
-            C2: configs/resources/genc_samples/s4_syn23.wav
-            C3: configs/resources/genc_samples/s4_syn50_bl.wav
-            C4: configs/resources/genc_samples/s4_qtz.wav
+            C1: configs/resources/genc_samples/s4/s4_syn20_bl.wav
+            C2: configs/resources/genc_samples/s4/s4_syn23.wav
+            C3: configs/resources/genc_samples/s4/s4_full.wav
+            C4: configs/resources/genc_samples/s4/s4_qtz.wav
+            C5: configs/resources/genc_samples/s4/s4_lyra.wav
 
-      # - type: mushra
-      #   id: trial_random_5
-      #   name: MUSHRA
-      #   content:
-      #   enableLooping: true
-      #   reference: configs/resources/genc_samples/s5_truth.wav
-      #   createAnchor35: true
-      #   createAnchor70: false
-      #   stimuli:
-      #       C1: configs/resources/genc_samples/s5_syn20_bl.wav
-      #       C2: configs/resources/genc_samples/s5_syn23.wav
-      #       C3: configs/resources/genc_samples/s5_syn50_bl.wav
-      #       C4: configs/resources/genc_samples/s5_qtz.wav
       - type: mushra
         id: trial_random_6
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/s6_truth.wav
+        reference: configs/resources/genc_samples/s6/s6_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s6_syn20_bl.wav
-            C2: configs/resources/genc_samples/s6_syn23.wav
-            C3: configs/resources/genc_samples/s6_syn50_bl.wav
-            C4: configs/resources/genc_samples/s6_qtz.wav
+            C1: configs/resources/genc_samples/s6/s6_syn20_bl.wav
+            C2: configs/resources/genc_samples/s6/s6_syn23.wav
+            C3: configs/resources/genc_samples/s6/s6_full.wav
+            C4: configs/resources/genc_samples/s6/s6_qtz.wav
+            C5: configs/resources/genc_samples/s6/s6_lyra.wav
       - type: mushra
         id: trial_random_7
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/s7_truth.wav
+        reference: configs/resources/genc_samples/s7/s7_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s7_syn20_bl.wav
-            C2: configs/resources/genc_samples/s7_syn23.wav
-            C3: configs/resources/genc_samples/s7_syn50_bl.wav
-            C4: configs/resources/genc_samples/s7_qtz.wav
+            C1: configs/resources/genc_samples/s7/s7_syn20_bl.wav
+            C2: configs/resources/genc_samples/s7/s7_syn23.wav
+            C3: configs/resources/genc_samples/s7/s7_full.wav
+            C4: configs/resources/genc_samples/s7/s7_qtz.wav
+            C5: configs/resources/genc_samples/s7/s7_lyra.wav
       - type: mushra
         id: trial_random_9
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/s9_truth.wav
+        reference: configs/resources/genc_samples/s9/s9_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s9_syn20_bl.wav
-            C2: configs/resources/genc_samples/s9_syn23.wav
-            C3: configs/resources/genc_samples/s9_syn50_bl.wav
-            C4: configs/resources/genc_samples/s9_qtz.wav
+            C1: configs/resources/genc_samples/s9/s9_syn20_bl.wav
+            C2: configs/resources/genc_samples/s9/s9_syn23.wav
+            C3: configs/resources/genc_samples/s9/s9_full.wav
+            C4: configs/resources/genc_samples/s9/s9_qtz.wav
+            C5: configs/resources/genc_samples/s9/s9_lyra.wav
       - type: mushra
         id: trial_random_16
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/s16_truth.wav
+        reference: configs/resources/genc_samples/s16/s16_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s16_syn20_bl.wav
-            C2: configs/resources/genc_samples/s16_syn23.wav
-            C3: configs/resources/genc_samples/s16_syn50_bl.wav
-            C4: configs/resources/genc_samples/s16_qtz.wav
+            C1: configs/resources/genc_samples/s16/s16_syn20_bl.wav
+            C2: configs/resources/genc_samples/s16/s16_syn23.wav
+            C3: configs/resources/genc_samples/s16/s16_full.wav
+            C4: configs/resources/genc_samples/s16/s16_qtz.wav
+            C5: configs/resources/genc_samples/s16/s16_lyra.wav
+
       - type: mushra
-        id: trial_random_lyra1
+        id: trial_random_18
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/lyra1_truth.wav
+        reference: configs/resources/genc_samples/s18/s18_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/lyra1_syn20_bl.wav
-            C2: configs/resources/genc_samples/lyra1_syn23.wav
-            C3: configs/resources/genc_samples/lyra1_syn50_bl.wav
-            C4: configs/resources/genc_samples/lyra1_qtz.wav
-            C5: configs/resources/genc_samples/lyra1.wav
+            C1: configs/resources/genc_samples/s18/s18_syn20_bl.wav
+            C2: configs/resources/genc_samples/s18/s18_syn23.wav
+            C3: configs/resources/genc_samples/s18/s18_full.wav
+            C4: configs/resources/genc_samples/s18/s18_qtz.wav
+            C5: configs/resources/genc_samples/s18/s18_lyra.wav
       - type: mushra
-        id: trial_random_lyra2
+        id: trial_random_19
         name: MUSHRA
         content:
         enableLooping: true
-        reference: configs/resources/genc_samples/lyra2_truth.wav
+        reference: configs/resources/genc_samples/s19/s19_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/lyra2_syn20_bl.wav
-            C2: configs/resources/genc_samples/lyra2_syn23.wav
-            C3: configs/resources/genc_samples/lyra2_syn50_bl.wav
-            C4: configs/resources/genc_samples/lyra2_qtz.wav
-            C5: configs/resources/genc_samples/lyra2.wav
+            C1: configs/resources/genc_samples/s19/s19_syn20_bl.wav
+            C2: configs/resources/genc_samples/s19/s19_syn23.wav
+            C3: configs/resources/genc_samples/s19/s19_full.wav
+            C4: configs/resources/genc_samples/s19/s19_qtz.wav
+            C5: configs/resources/genc_samples/s19/s19_lyra.wav
+      - type: mushra
+        id: trial_random_22
+        name: MUSHRA
+        content:
+        enableLooping: true
+        reference: configs/resources/genc_samples/s22/s22_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/genc_samples/s22/s22_syn20_bl.wav
+            C2: configs/resources/genc_samples/s22/s22_syn23.wav
+            C3: configs/resources/genc_samples/s22/s22_full.wav
+            C4: configs/resources/genc_samples/s22/s22_qtz.wav
+            C5: configs/resources/genc_samples/s22/s22_lyra.wav
 
 
     - type: finish
