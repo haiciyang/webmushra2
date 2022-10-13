@@ -10,7 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: <p>Thank you for participating in this listening test. This test will take about 20 minutes. </p> <br/> <p>At the end of the test, please <b> put your name and click the [Submit Results] button </b> to make sure your results are successfully saved to the system. </p> 
+      content: Thank you for participating in this listening test. This test will take about 20 minutes. <br/> At the end of the test, please <b> put your name and click the [Submit Results] button </b> to make sure your results are successfully saved to the system.
     - 
       - random
       - type: mushra
@@ -30,7 +30,7 @@ pages:
       - type: mushra
         id: 1
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s3/s3_truth.wav
         createAnchor35: true
@@ -44,7 +44,7 @@ pages:
       - type: mushra
         id: 2
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s4/s4_truth.wav
         createAnchor35: true
@@ -59,7 +59,7 @@ pages:
       - type: mushra
         id: 3
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s6/s6_truth.wav
         createAnchor35: true
@@ -73,7 +73,7 @@ pages:
       - type: mushra
         id: 4
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s7/s7_truth.wav
         createAnchor35: true
@@ -87,7 +87,7 @@ pages:
       - type: mushra
         id: 5
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s9/s9_truth.wav
         createAnchor35: true
@@ -101,7 +101,7 @@ pages:
       - type: mushra
         id: 6
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s16/s16_truth.wav
         createAnchor35: true
@@ -116,7 +116,7 @@ pages:
       - type: mushra
         id: 7
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s18/s18_truth.wav
         createAnchor35: true
@@ -130,7 +130,7 @@ pages:
       - type: mushra
         id: 8
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s19/s19_truth.wav
         createAnchor35: true
@@ -144,7 +144,7 @@ pages:
       - type: mushra
         id: 9
         name: MUSHRA
-        content:
+        content: Please rate the samples only compared to the reference
         enableLooping: true
         reference: configs/resources/genc_samples/s22/s22_truth.wav
         createAnchor35: true
@@ -158,7 +158,7 @@ pages:
 
     - type: finish
       name: Thank you
-      content: Thank you for attending!
+      content: Thank you for attending! <br/> Please put your name and press the [send results] button.
       showResults: true
       writeResults: true
       questionnaire:
