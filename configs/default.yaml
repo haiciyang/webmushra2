@@ -46,7 +46,7 @@ pages:
         name: MUSHRA
         content: 
         enableLooping: true
-        reference: configs/resources/2ch_samples/s1-M/1_x.wav
+        reference: configs/resources/2ch/s1-M/1_x.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
@@ -54,7 +54,7 @@ pages:
             C2: configs/resources/2ch/s1-M/1_diff_3.wav
             C3: configs/resources/2ch/s1-M/1_encodec_1_5.wav   
             C4: configs/resources/2ch/s1-M/1_encodec_3.wav   
-            C5: configs/resources/2ch/s1-M/1_dac16_3kbps.wav  
+            C5: configs/resources/2ch/s1-M/1_dac16_3.wav  
     - type: finish
       name: Thank you
       content: Thank you for attending! <br/> Please put your name and press the [send results] button.
