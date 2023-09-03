@@ -40,7 +40,7 @@ pages:
             C2: configs/resources/genc_samples/s3/s3_syn23.wav
             C3: configs/resources/genc_samples/s3/s3_full.wav
             C4: configs/resources/genc_samples/s3/s3_qtz.wav
-            C5: configs/resources/genc_samples/s3/s3_lyra.wavs
+            C5: configs/resources/genc_samples/s3/s3_lyra.wav
     - type: finish
       name: Thank you
       content: Thank you for attending! <br/> Please put your name and press the [send results] button.
