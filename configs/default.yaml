@@ -10,14 +10,14 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Thank you for participating in this listening test. This test includes 10 sessions, and will take about 30 minutes. At each session, you are provided with a reference and are asked to rate 7 samples, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). Give 100 points to the hidden reference, ~20 points to the anchor, and rate the rest of the others always based on their comparison with the reference<br/> At the end of the test, please <b> input your name and click the [Submit Results] button </b> to save your results.
+      content: Thank you for participating in this listening test. This test includes 10 sessions, and will take about 30 minutes. At each session, you are provided with a reference and are asked to rate 7 samples, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). Give 100 points to the hidden reference, and rate the rest of the others always based on their comparison with the reference. To regularize, I would suggest to rate the muffle sounding anchor to a score around 10-30. <br/> At the end of the test, please <b> input your name and click the [Submit Results] button </b> to save your results.
     - 
       - random
       - type: mushra
         id: 0
         name: MUSHRA
         content: 
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s1-M/1_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -31,7 +31,7 @@ pages:
         id: 1
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s200-F/200_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -45,7 +45,7 @@ pages:
         id: 2
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s300-F/300_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -59,7 +59,7 @@ pages:
         id: 3
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s400-F/400_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -73,7 +73,7 @@ pages:
         id: 4
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s510-F/510_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -87,7 +87,7 @@ pages:
         id: 5
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s900-M/900_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -101,7 +101,7 @@ pages:
         id: 6
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s1200-M/1200_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -116,7 +116,7 @@ pages:
         id: 7
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s1300-F/1300_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -130,7 +130,7 @@ pages:
         id: 8
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s1410-M/1410_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -144,7 +144,7 @@ pages:
         id: 9
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: true
+        enableLooping: false
         reference: configs/resources/2ch/s1850-M/1850_x.wav
         createAnchor35: true
         createAnchor70: false
