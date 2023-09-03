@@ -20,29 +20,15 @@ pages:
         name: MUSHRA
         content: 
         enableLooping: true
-        reference: configs/resources/genc_samples/s1/s1_full.wav
+        reference: configs/resources/DiffSamples_matched/s1-M/1_x.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s1/s1_full.wav
-            C2: configs/resources/genc_samples/s1/s1_full.wav
-            C3: configs/resources/genc_samples/s1/s1_full.wav   
-            C4: configs/resources/genc_samples/s1/s1_full.wav   
-            C5: configs/resources/genc_samples/s1/s1_full.wav 
-      # - type: mushra
-      #   id: 0
-      #   name: MUSHRA
-      #   content: 
-      #   enableLooping: true
-      #   reference: configs/resources/DiffSamples_matched/s1-M/1_x.wav
-      #   createAnchor35: true
-      #   createAnchor70: false
-      #   stimuli:
-      #       C1: configs/resources/DiffSamples_matched/s1-M/1_diff_1.wav
-      #       C2: configs/resources/DiffSamples_matched/s1-M/1_diff_3.wav
-      #       C3: configs/resources/DiffSamples_matched/s1-M/1_encodec_1_5.wav   
-      #       C4: configs/resources/DiffSamples_matched/s1-M/1_encodec_3.wav   
-      #       C5: configs/resources/DiffSamples_matched/s1-M/1_dac16_3kbps.wav       
+            C1: configs/resources/DiffSamples_matched/s1-M/1_diff_1.wav
+            C2: configs/resources/DiffSamples_matched/s1-M/1_diff_3.wav
+            C3: configs/resources/DiffSamples_matched/s1-M/1_encodec_1_5.wav   
+            C4: configs/resources/DiffSamples_matched/s1-M/1_encodec_3.wav   
+            C5: configs/resources/DiffSamples_matched/s1-M/1_dac16_3kbps.wav       
       - type: mushra
         id: 1
         name: MUSHRA
