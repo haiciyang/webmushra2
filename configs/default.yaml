@@ -10,6 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
+      content: diff codec
     - 
       - random
       - type: mushra
@@ -17,29 +18,29 @@ pages:
         name: MUSHRA
         content: 
         enableLooping: true
-        reference: configs/resources/genc_samples/s1/s1_truth.wav
+        reference: configs/resources/2ch_samples/s1-M/1_x.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s1/s1_syn20_bl.wav
-            C2: configs/resources/genc_samples/s1/s1_syn23.wav
-            C3: configs/resources/genc_samples/s1/s1_full.wav
-            C4: configs/resources/genc_samples/s1/s1_qtz.wav   
-            C5: configs/resources/genc_samples/s1/s1_lyra.wav          
+            C1: configs/resources/2ch_samples/s1-M/1_diff_1.wav
+            C2: configs/resources/2ch_samples/s1-M/1_diff_3.wav
+            C3: configs/resources/2ch_samples/s1-M/1_encodec_1_5.wav   
+            C4: configs/resources/2ch_samples/s1-M/1_encodec_3.wav   
+            C5: configs/resources/2ch_samples/s1-M/1_dac16_3kbps.wav       
       - type: mushra
         id: 1
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/genc_samples/s3/s3_truth.wav
+        reference: configs/resources/2ch_samples/s200-F/200_x.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/genc_samples/s3/s3_syn20_bl.wav
-            C2: configs/resources/genc_samples/s3/s3_syn23.wav
-            C3: configs/resources/genc_samples/s3/s3_full.wav
-            C4: configs/resources/genc_samples/s3/s3_qtz.wav
-            C5: configs/resources/genc_samples/s3/s3_lyra.wav
+            C1: configs/resources/2ch_samples/s200-F/200_diff_1.wav
+            C2: configs/resources/2ch_samples/s200-F/200_diff_3.wav
+            C3: configs/resources/2ch_samples/s200-F/200_encodec_1_5.wav   
+            C4: configs/resources/2ch_samples/s200-F/200_encodec_3.wav 
+            C5: configs/resources/2ch_samples/s200-F/200_dac16_3kbps.wav
     - type: finish
       name: Thank you
       content: Thank you for attending! <br/> Please put your name and press the [send results] button.
