@@ -10,9 +10,6 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      # content: Thank you for participating in this listening test. This test contains 10 sessions in total, and will take about 30 minutes. 
-# At each session, you are provided with a reference and are asked to rate 7 samples, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). 
-# Give 100 points to the hidden reference, ~20 points to the anchor, and rate the rest of the others always based on their comparison with the reference<br/> At the end of the test, please <b> put your name and click the [Submit Results] button </b> to make sure your results are successfully saved to the system.
     - 
       - random
       - type: mushra
@@ -57,106 +54,105 @@ pages:
             C3: configs/resources/DiffSamples_matched/s300-F/300_encodec_1_5.wav   
             C4: configs/resources/DiffSamples_matched/s300-F/300_encodec_3.wav 
             C5: configs/resources/DiffSamples_matched/s300-F/300_dac16_3kbps.wav
+      # - type: mushra
+      #   id: 3
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s400-F/400_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s400-F/400_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s400-F/400_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s400-F/400_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s400-F/400_encodec_3.wav 
+      #       C5: configs/resources/DiffSamples_matched/s400-F/400_dac16_3kbps.wav
+      # - type: mushra
+      #   id: 4
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s510-F/510_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s510-F/510_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s510-F/510_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s510-F/510_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s510-F/510_encodec_3.wav 
+      #       C5: configs/resources/DiffSamples_matched/s510-F/510_dac16_3kbps.wav
+      # - type: mushra
+      #   id: 5
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s900-M/900_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s900-M/900_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s900-M/900_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s900-M/900_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s900-M/900_encodec_3.wav 
+      #       C5: configs/resources/DiffSamples_matched/s900-M/900_dac16_3kbps.wav
+      # - type: mushra
+      #   id: 6
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s1200-M/1200_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s1200-M/1200_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s1200-M/1200_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s1200-M/1200_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s1200-M/1200_encodec_3.wav 
+      #       C5: configs/resources/DiffSamples_matched/s1200-M/1200_dac16_3kbps.wav
 
-      - type: mushra
-        id: 3
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s400-F/400_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s400-F/400_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s400-F/400_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s400-F/400_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s400-F/400_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s400-F/400_dac16_3kbps.wav
-      - type: mushra
-        id: 4
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s510-F/510_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s510-F/510_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s510-F/510_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s510-F/510_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s510-F/510_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s510-F/510_dac16_3kbps.wav
-      - type: mushra
-        id: 5
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s900-M/900_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s900-M/900_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s900-M/900_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s900-M/900_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s900-M/900_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s900-M/900_dac16_3kbps.wav
-      - type: mushra
-        id: 6
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1200-M/1200_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s1200-M/1200_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1200-M/1200_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1200-M/1200_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1200-M/1200_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s1200-M/1200_dac16_3kbps.wav
-
-      - type: mushra
-        id: 7
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1300-F/1300_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s1300-F/1300_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1300-F/1300_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1300-F/1300_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1300-F/1300_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s1300-F/1300_dac16_3kbps.wav
-      - type: mushra
-        id: 8
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1410-M/1410_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s1410-M/1410_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1410-M/1410_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1410-M/1410_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1410-M/1410_encodec_3.wav
-            C5: configs/resources/DiffSamples_matched/s1410-M/1410_dac16_3kbps.wav 
-      - type: mushra
-        id: 9
-        name: MUSHRA
-        content: Please rate the samples only compared to the reference
-        enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1850-M/1850_x.wav
-        createAnchor35: true
-        createAnchor70: false
-        stimuli:
-            C1: configs/resources/DiffSamples_matched/s1850-M/1850_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1850-M/1850_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1850-M/1850_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1850-M/1850_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s1850-M/1850_dac16_3kbps.wav
+      # - type: mushra
+      #   id: 7
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s1300-F/1300_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s1300-F/1300_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s1300-F/1300_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s1300-F/1300_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s1300-F/1300_encodec_3.wav 
+      #       C5: configs/resources/DiffSamples_matched/s1300-F/1300_dac16_3kbps.wav
+      # - type: mushra
+      #   id: 8
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s1410-M/1410_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s1410-M/1410_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s1410-M/1410_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s1410-M/1410_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s1410-M/1410_encodec_3.wav
+      #       C5: configs/resources/DiffSamples_matched/s1410-M/1410_dac16_3kbps.wav 
+      # - type: mushra
+      #   id: 9
+      #   name: MUSHRA
+      #   content: Please rate the samples only compared to the reference
+      #   enableLooping: true
+      #   reference: configs/resources/DiffSamples_matched/s1850-M/1850_x.wav
+      #   createAnchor35: true
+      #   createAnchor70: false
+      #   stimuli:
+      #       C1: configs/resources/DiffSamples_matched/s1850-M/1850_diff_1.wav
+      #       C2: configs/resources/DiffSamples_matched/s1850-M/1850_diff_3.wav
+      #       C3: configs/resources/DiffSamples_matched/s1850-M/1850_encodec_1_5.wav   
+      #       C4: configs/resources/DiffSamples_matched/s1850-M/1850_encodec_3.wav 
+      #       C5: configs/resources/DiffSamples_matched/s1850-M/1850_dac16_3kbps.wav
 
     - type: finish
       name: Thank you
