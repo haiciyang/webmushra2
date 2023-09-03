@@ -10,7 +10,9 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Thank you for participating in this listening test. This test will take about 20 minutes. <br/> At the end of the test, please <b> put your name and click the [Submit Results] button </b> to make sure your results are successfully saved to the system.
+      content: Thank you for participating in this listening test. This test contains 10 sessions in total, and will take about 30 minutes. 
+At each session, you are provided with a reference and are asked to rate 7 samples, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). 
+Give 100 points to the hidden reference, ~20 points to the anchor, and rate the rest of the others always based on their comparison with the reference<br/> At the end of the test, please <b> put your name and click the [Submit Results] button </b> to make sure your results are successfully saved to the system.
     - 
       - random
       - type: mushra
