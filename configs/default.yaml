@@ -17,7 +17,7 @@ pages:
         id: 0
         name: MUSHRA
         content: 
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s1-M/1_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -31,7 +31,7 @@ pages:
         id: 1
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s200-F/200_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -45,7 +45,7 @@ pages:
         id: 2
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s300-F/300_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -59,7 +59,7 @@ pages:
         id: 3
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s400-F/400_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -73,7 +73,7 @@ pages:
         id: 4
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s510-F/510_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -87,7 +87,7 @@ pages:
         id: 5
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s900-M/900_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -101,7 +101,7 @@ pages:
         id: 6
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s1200-M/1200_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -116,7 +116,7 @@ pages:
         id: 7
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s1300-F/1300_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -130,7 +130,7 @@ pages:
         id: 8
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s1410-M/1410_x.wav
         createAnchor35: true
         createAnchor70: false
@@ -144,7 +144,7 @@ pages:
         id: 9
         name: MUSHRA
         content: Please rate the samples only compared to the reference
-        enableLooping: false
+        enableLooping: true
         reference: configs/resources/2ch/s1850-M/1850_x.wav
         createAnchor35: true
         createAnchor70: false
