@@ -20,143 +20,143 @@ Give 100 points to the hidden reference, ~20 points to the anchor, and rate the 
         name: MUSHRA
         content: 
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1-M/1_x.wav
+        reference: configs/resources/genc_samples/s1/s1_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s1-M/1_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1-M/1_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1-M/1_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1-M/1_encodec_3.wav   
-            C5: configs/resources/DiffSamples_matched/s1-M/1_dac16_3kbps.wav       
+            C1: configs/resources/genc_samples/s1/s1_syn20_bl.wav
+            C2: configs/resources/genc_samples/s1/s1_syn23.wav
+            C3: configs/resources/genc_samples/s1/s1_full.wav
+            C4: configs/resources/genc_samples/s1/s1_qtz.wav   
+            C5: configs/resources/genc_samples/s1/s1_lyra.wav          
       - type: mushra
         id: 1
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s200-F/200_x.wav
+        reference: configs/resources/genc_samples/s3/s3_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s200-F/200_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s200-F/200_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s200-F/200_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s200-F/200_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s200-F/200_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s3/s3_syn20_bl.wav
+            C2: configs/resources/genc_samples/s3/s3_syn23.wav
+            C3: configs/resources/genc_samples/s3/s3_full.wav
+            C4: configs/resources/genc_samples/s3/s3_qtz.wav
+            C5: configs/resources/genc_samples/s3/s3_lyra.wav
       - type: mushra
         id: 2
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s300-F/300_x.wav
+        reference: configs/resources/genc_samples/s4/s4_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s300-F/300_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s300-F/300_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s300-F/300_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s300-F/300_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s300-F/300_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s4/s4_syn20_bl.wav
+            C2: configs/resources/genc_samples/s4/s4_syn23.wav
+            C3: configs/resources/genc_samples/s4/s4_full.wav
+            C4: configs/resources/genc_samples/s4/s4_qtz.wav
+            C5: configs/resources/genc_samples/s4/s4_lyra.wav
 
       - type: mushra
         id: 3
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s400-F/400_x.wav
+        reference: configs/resources/genc_samples/s6/s6_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s400-F/400_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s400-F/400_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s400-F/400_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s400-F/400_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s400-F/400_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s6/s6_syn20_bl.wav
+            C2: configs/resources/genc_samples/s6/s6_syn23.wav
+            C3: configs/resources/genc_samples/s6/s6_full.wav
+            C4: configs/resources/genc_samples/s6/s6_qtz.wav
+            C5: configs/resources/genc_samples/s6/s6_lyra.wav
       - type: mushra
         id: 4
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s510-F/510_x.wav
+        reference: configs/resources/genc_samples/s7/s7_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s510-F/510_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s510-F/510_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s510-F/510_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s510-F/510_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s510-F/510_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s7/s7_syn20_bl.wav
+            C2: configs/resources/genc_samples/s7/s7_syn23.wav
+            C3: configs/resources/genc_samples/s7/s7_full.wav
+            C4: configs/resources/genc_samples/s7/s7_qtz.wav
+            C5: configs/resources/genc_samples/s7/s7_lyra.wav
       - type: mushra
         id: 5
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s900-M/900_x.wav
+        reference: configs/resources/genc_samples/s9/s9_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s900-M/900_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s900-M/900_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s900-M/900_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s900-M/900_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s900-M/900_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s9/s9_syn20_bl.wav
+            C2: configs/resources/genc_samples/s9/s9_syn23.wav
+            C3: configs/resources/genc_samples/s9/s9_full.wav
+            C4: configs/resources/genc_samples/s9/s9_qtz.wav
+            C5: configs/resources/genc_samples/s9/s9_lyra.wav
       - type: mushra
         id: 6
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1200-M/1200_x.wav
+        reference: configs/resources/genc_samples/s16/s16_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s1200-M/1200_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1200-M/1200_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1200-M/1200_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1200-M/1200_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s1200-M/1200_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s16/s16_syn20_bl.wav
+            C2: configs/resources/genc_samples/s16/s16_syn23.wav
+            C3: configs/resources/genc_samples/s16/s16_full.wav
+            C4: configs/resources/genc_samples/s16/s16_qtz.wav
+            C5: configs/resources/genc_samples/s16/s16_lyra.wav
 
       - type: mushra
         id: 7
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1300-F/1300_x.wav
+        reference: configs/resources/genc_samples/s18/s18_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s1300-F/1300_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1300-F/1300_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1300-F/1300_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1300-F/1300_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s1300-F/1300_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s18/s18_syn20_bl.wav
+            C2: configs/resources/genc_samples/s18/s18_syn23.wav
+            C3: configs/resources/genc_samples/s18/s18_full.wav
+            C4: configs/resources/genc_samples/s18/s18_qtz.wav
+            C5: configs/resources/genc_samples/s18/s18_lyra.wav
       - type: mushra
         id: 8
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1410-M/1410_x.wav
+        reference: configs/resources/genc_samples/s19/s19_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s1410-M/1410_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1410-M/1410_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1410-M/1410_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1410-M/1410_encodec_3.wav
-            C5: configs/resources/DiffSamples_matched/s1410-M/1410_dac16_3kbps.wav 
+            C1: configs/resources/genc_samples/s19/s19_syn20_bl.wav
+            C2: configs/resources/genc_samples/s19/s19_syn23.wav
+            C3: configs/resources/genc_samples/s19/s19_full.wav
+            C4: configs/resources/genc_samples/s19/s19_qtz.wav
+            C5: configs/resources/genc_samples/s19/s19_lyra.wav
       - type: mushra
         id: 9
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/DiffSamples_matched/s1850-M/1850_x.wav
+        reference: configs/resources/genc_samples/s22/s22_truth.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/DiffSamples_matched/s1850-M/1850_diff_1.wav
-            C2: configs/resources/DiffSamples_matched/s1850-M/1850_diff_3.wav
-            C3: configs/resources/DiffSamples_matched/s1850-M/1850_encodec_1_5.wav   
-            C4: configs/resources/DiffSamples_matched/s1850-M/1850_encodec_3.wav 
-            C5: configs/resources/DiffSamples_matched/s1850-M/1850_dac16_3kbps.wav
+            C1: configs/resources/genc_samples/s22/s22_syn20_bl.wav
+            C2: configs/resources/genc_samples/s22/s22_syn23.wav
+            C3: configs/resources/genc_samples/s22/s22_full.wav
+            C4: configs/resources/genc_samples/s22/s22_qtz.wav
+            C5: configs/resources/genc_samples/s22/s22_lyra.wav
 
     - type: finish
       name: Thank you
