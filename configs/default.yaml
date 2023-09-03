@@ -18,29 +18,29 @@ pages:
         name: MUSHRA
         content: 
         enableLooping: true
-        reference: configs/resources/2ch_samples/s1-M/1_x.wav
+        reference: configs/resources/diffCodec_2ch/s1-M/1_x.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/2ch_samples/s1-M/1_diff_1.wav
-            C2: configs/resources/2ch_samples/s1-M/1_diff_3.wav
-            C3: configs/resources/2ch_samples/s1-M/1_encodec_1_5.wav   
-            C4: configs/resources/2ch_samples/s1-M/1_encodec_3.wav   
-            C5: configs/resources/2ch_samples/s1-M/1_dac16_3kbps.wav       
+            C1: configs/resources/diffCodec_2ch/s1-M/1_diff_1.wav
+            C2: configs/resources/diffCodec_2ch/s1-M/1_diff_3.wav
+            C3: configs/resources/diffCodec_2ch/s1-M/1_encodec_1_5.wav   
+            C4: configs/resources/diffCodec_2ch/s1-M/1_encodec_3.wav   
+            C5: configs/resources/diffCodec_2ch/s1-M/1_dac16_3kbps.wav       
       - type: mushra
         id: 1
         name: MUSHRA
         content: Please rate the samples only compared to the reference
         enableLooping: true
-        reference: configs/resources/2ch_samples/s200-F/200_x.wav
+        reference: configs/resources/diffCodec_2ch/s200-F/200_x.wav
         createAnchor35: true
         createAnchor70: false
         stimuli:
-            C1: configs/resources/2ch_samples/s200-F/200_diff_1.wav
-            C2: configs/resources/2ch_samples/s200-F/200_diff_3.wav
-            C3: configs/resources/2ch_samples/s200-F/200_encodec_1_5.wav   
-            C4: configs/resources/2ch_samples/s200-F/200_encodec_3.wav 
-            C5: configs/resources/2ch_samples/s200-F/200_dac16_3kbps.wav
+            C1: configs/resources/diffCodec_2ch/s200-F/200_diff_1.wav
+            C2: configs/resources/diffCodec_2ch/s200-F/200_diff_3.wav
+            C3: configs/resources/diffCodec_2ch/s200-F/200_encodec_1_5.wav   
+            C4: configs/resources/diffCodec_2ch/s200-F/200_encodec_3.wav 
+            C5: configs/resources/diffCodec_2ch/s200-F/200_dac16_3kbps.wav
     - type: finish
       name: Thank you
       content: Thank you for attending! <br/> Please put your name and press the [send results] button.
