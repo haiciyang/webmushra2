@@ -1,5 +1,5 @@
 testname: webMUSHRA
-testId: default_example
+testId: haici_icassp2024_mushra
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -10,7 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Thank you for participating in this listening test. This test includes 10 sessions, and will take about 30 minutes. At each session, you are provided with a reference and 7 samples to compare, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). <br/> Try to find the hidden reference and give it 100 points. Then rate the rest of the others always based on their comparison to the reference. <br/> To regularize, I suggest rating the muffle sounding anchor to a score around 10-30. <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button </b> to save your results.
+      content: Thank you for participating in this listening test. <br/> This test includes 10 sessions, and will take about 30 minutes. <br/> Each session give you a reference and 7 samples to compare, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). <br/> Try to find the hidden reference and give it 100 points. Then rate the rest of the others always based on their comparison to the reference. <br/> To regularize, I suggest rating the muffle sounding anchor to a score around 10-30. <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button </b> to save your results.
     - 
       - random
       - type: mushra
