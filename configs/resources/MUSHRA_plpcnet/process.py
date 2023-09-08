@@ -2,6 +2,10 @@ import glob
 import numpy as np
 from scipy.io import wavfile
 
+sr, sig = wavfile.read('configs/resources/MUSHRA_plpcnet/trial_1/652_256_prop.wav')
+print(sig.shape)
+fake()
+
 for f in glob.glob('*/*.wav'):
     sr, sig = wavfile.read(f)
     print(sig.shape)
