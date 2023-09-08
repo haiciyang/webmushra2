@@ -1,0 +1,138 @@
+testname: webMUSHRA
+testId: Inseon_icassp2024_plpcnet
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Thank you for participating in this listening test. <br/> This test includes 8 sessions, and will take about 30 minutes. <br/> Each session give you a reference and 7 samples to compare, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). <br/> Pick out the hidden reference and give it 100 points. Then rate the rest of the others always based on their comparison to the reference. <br/> To regularize, I suggest rating the muffle sounding anchor to a score around 10-30. <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button </b> to save your results.
+    - 
+      - random
+      - type: mushra
+        id: 0
+        name: MUSHRA
+        content: 
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_1/652_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_1/652_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_1/652_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_1/652_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_1/652_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_1/652_384.wav       
+      - type: mushra
+        id: 1
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_2/1993_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_2/1993_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_2/1993_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_2/1993_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_2/1993_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_2/1993_384.wav
+      - type: mushra
+        id: 2
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_3/2277_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_3/2277_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_3/2277_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_3/2277_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_3/2277_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_3/2277_384.wav
+      - type: mushra
+        id: 3
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_4/2803_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_4/2803_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_4/2803_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_4/2803_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_4/2803_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_4/2803_384.wav
+      - type: mushra
+        id: 4
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_5/3000_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_5/3000_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_5/3000_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_5/3000_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_5/3000_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_5/3000_384.wav
+      - type: mushra
+        id: 5
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_6/5694_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_6/5694_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_6/5694_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_6/5694_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_6/5694_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_6/5694_384.wav
+
+      - type: mushra
+        id: 6
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_7/5895_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_7/5895_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_7/5895_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_7/5895_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_7/5895_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_7/5895_384.wav
+      - type: mushra
+        id: 7
+        name: MUSHRA
+        content: Please rate the samples only compared to the reference
+        enableLooping: true
+        reference: config/resources/MUSHRA_plpcnet/trial_8/7976_truth.wav
+        createAnchor35: true
+        createAnchor70: false
+        stimuli:
+            C1: config/resources/MUSHRA_plpcnet/trial_8/7976_256_prop.wav
+            C2: config/resources/MUSHRA_plpcnet/trial_8/7976_256.wav
+            C3: config/resources/MUSHRA_plpcnet/trial_8/7976_384_prob.wav   
+            C4: config/resources/MUSHRA_plpcnet/trial_8/7976_384_tf.wav   
+            C5: config/resources/MUSHRA_plpcnet/trial_8/7976_384.wav 
+    - type: finish
+      name: Thank you
+      content: Thank you for attending! <br/> Please put your name and press the [send results] button.
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: Your name
+            name: name
+
